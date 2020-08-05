@@ -43,7 +43,7 @@ class TasksScreen extends StatelessWidget {
           ),
         ),
       ),
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: Colors.orange,
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showModalBottomSheet(
@@ -58,7 +58,7 @@ class TasksScreen extends StatelessWidget {
             ),
           );
         },
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.orangeAccent,
         child: Icon(Icons.add),
       ),
       body: FutureBuilder(
@@ -89,7 +89,7 @@ class TasksScreen extends StatelessWidget {
                           child: Icon(
                             Icons.list,
                             size: 30.0,
-                            color: Colors.lightBlueAccent,
+                            color: Colors.orangeAccent,
                           ),
                           radius: 30.0,
                         ),
